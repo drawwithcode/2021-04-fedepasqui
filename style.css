@@ -1,8 +1,20 @@
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
 }
 
 canvas {
   display: block;
+}
+
+button {
+  font-family: "Liberata";
+  background-color: #ffffff;
+  stroke: none;
+  border-radius: 5px;
+}
+
+.gameChanger {
+  background-color: red;
 }
