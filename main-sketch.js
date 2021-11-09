@@ -17,9 +17,7 @@ function preload() {
 function setup() {
   createCanvas(windowWidth, windowHeight);
   background("#FFFEEF");
-  textFont("IBM Plex Mono");
-  textSize(40);
-  text("The inspiration for your next parentpiece.", 100, windowHeight / 2);
+ 
 
   image(cover1, 100, 70, width / 10, height / 3.5);
   image(cover2, 500, 30, width / 10, height / 3.5);
@@ -35,6 +33,10 @@ function setup() {
 }
 
 function draw() {
+  textFont("IBM Plex Mono");
+  textSize(40);
+  text("The inspiration for your next parentpiece.", 100, windowHeight / 2);
+  
   textFont("IBM Plex Mono");
   textSize(26);
   text("Click a cover and look for the red word", 100, 430);
