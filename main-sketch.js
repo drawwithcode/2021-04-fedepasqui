@@ -18,18 +18,11 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
   background("#FFFEEF");
  
-
   image(cover1, 100, 70, width / 10, height / 3.5);
-  image(cover2, 500, 30, width / 10, height / 3.5);
+  image(cover2, 500, 30, width / 10, height / 3);
   image(cover3, 1050, 105, width / 10, height / 3.5);
   image(cover4, 400, 500, width / 10, height / 3.5);
   image(cover5, 900, 450, width / 10, height / 3.5);
-
-  // image(cover1, 100, 70, width / 10, height / 3.5);
-  // image(cover2, 400, 500, width / 10, height / 3.5);
-  // image(cover3, 800, 400, width / 10, height / 3.5);
-  // image(cover4, 500, 30, width / 10, height / 3.5);
-  // image(cover5, 1000, 110, width / 10, height / 3.5);
 }
 
 function draw() {
